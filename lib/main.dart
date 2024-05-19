@@ -28,7 +28,7 @@ class _ItemScreenState extends State<ItemScreen> {
   TextEditingController _controller = TextEditingController();
   List<Item> _items = [];
   int? _editIndex;
-  final ApiService apiService = ApiService(baseUrl: 'http://localhost:8080/api/v1');
+  final ApiService apiService = ApiService(baseUrl: 'https://app-uniara-eb91fc9ec7bf.herokuapp.com/api/v1');
 
   @override
   void initState() {
